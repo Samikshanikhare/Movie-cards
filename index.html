@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies-cards</title>
     <style>
+        body{
+            background-color:gray;
+        }
         .movie-card{
             background-color: beige;
             height: 500px;
             width: 350px;
             border-radius: 10px;
             border: 5px solid black;
-            position: absolute;
+            position: relative;
+            margin-left: 50px;
             left: 100px;
             display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        
         }
         .m1card{
             border-radius: 7px;
@@ -34,7 +41,7 @@
         }
         .one{
             position: relative;
-            left: 30px;
+            left: 35px;
             bottom: 50px;
             border: 3px solid white;
         }
@@ -94,6 +101,32 @@
             
 
         }
+        .cardm6{
+            position: relative;
+            top: 420px;
+            right: 390px;
+        }
+        .cardm7{
+            position: relative;
+            top: 460px;
+            right: 650px;
+        }
+        .m3card{
+            height: 300px;
+            width: auto;
+            border-radius: 7px;
+            left: 55px;
+            right: 30px;
+            top: 10px;
+            position: relative;
+            
+        }
+        .three{
+            position: relative;
+            right: 200px;
+            top: 250px;
+            border: 3px solid white;
+        }
        
     </style>
 </head>
@@ -127,7 +160,24 @@
             <b>length</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Lang</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Rating</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Reviews</b>
             </div>
             <div class="cardm5">
-                <b>2.30hr</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Hindi</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>9.0</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>80+</b>
+                <b>2.30hr</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Hindi</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>8.5</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>85+</b>
+
+            </div>
+    
+        </div>
+
+        <div class="content movie-card ">
+            <img src="movie4.png" height="300px" width="300px" class="m3card">
+            <img src="play.png" height="50px" width="60px" class="playbtn2">
+            <img src="movie4.png" height="150px" width="80px" class="three">
+            <div class="cardm1">
+                <b class="mname1">Padmavati</b>
+            </div><br>
+            <div class="cardm6">
+            <b>length</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Lang</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Rating</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Reviews</b>
+            </div>
+            <div class="cardm7">
+                <b>3:00hr</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Hindi</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>7.5</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>85+</b>
 
             </div>
     
